@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <%- include('./partials/head.ejs') %>
+</head>
+
+<body>
+    <header>
+        <%- include('./partials/header.ejs') %>
+    </header>
+
+    <main class="panel">
+        <form action="/products" method="POST" class="formPanel" enctype="multipart/form-data">
+            <section class="productForm">
+                <h2>CREAR PRODUCTO</h2>
+                <p class="panel-form-field">
+                    <label class="panel-form-label">ARTISTA</label>
+                    <input type="text" name="artist" class="panel-form-placeholder" required>
+                </p>
+                <p>
+                    <label class="panel-form-label">ALBUM</label>
+                    <input type="text" name="album" class="panel-form-placeholder" required>
+                </p>
+                <p>
+                    <label class="panel-form-label">ENVIO</label>
+                    <input type="radio" name="envio" required>
+                </p>
+                <p>
+                    <label class="panel-form-label">OFERTA</label>
+                    <input type="radio" name="off" required>
+                </p>
+                <p>
+                    <label class="panel-form-label" for="image">IMAGEN</label>
+                    <input type="file" accept=".jpg, .png, .jpeg" name="image" class="panel-form-placeholder">
+                </p>
+                <p>
+                    <label class="panel-form-label">PRECIO</label>
+                    <input type="text" name="price" class="panel-form-placeholder" required>
+                </p>
+                <p class="botonesPanel">
+                    <button type="reset" class="botonPanel">Borrar</button>
+                    <button type="submit" class="botonPanel">Crear</button>
+                </p>
+            </section>
+        </form>
+    </main>
+
+    <footer>
+        <%- include('./partials/footer.ejs') %>
+    </footer>
+</body>
+
+</html>

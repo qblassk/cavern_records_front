@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "name": "ACDC",
+        "album": "LET THERE BE ROCK",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/acdc.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "THE CLASH",
+        "album": "LONDON CALLING",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/clash_london.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "DEEP PURPLE",
+        "album": "BURN",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Deep_purple_burn.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "PINK FLOYD",
+        "album": "PULSE",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Pink_Floyd_Pulse.png",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "RAMONES",
+        "album": "RAMONES",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Ramones.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "ACDC",
+        "album": "LET THERE BE ROCK",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/acdc.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "THE CLASH",
+        "album": "LONDON CALLING",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/clash_london.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "DEEP PURPLE",
+        "album": "BURN",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Deep_purple_burn.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "PINK FLOYD",
+        "album": "PULSE",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Pink_Floyd_Pulse.png",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "RAMONES",
+        "album": "RAMONES",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Ramones.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "ACDC",
+        "album": "LET THERE BE ROCK",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/acdc.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "THE CLASH",
+        "album": "LONDON CALLING",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/clash_london.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "DEEP PURPLE",
+        "album": "BURN",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Deep_purple_burn.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "PINK FLOYD",
+        "album": "PULSE",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Pink_Floyd_Pulse.png",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "RAMONES",
+        "album": "RAMONES",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Ramones.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "ACDC",
+        "album": "LET THERE BE ROCK",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/acdc.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "THE CLASH",
+        "album": "LONDON CALLING",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/clash_london.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "DEEP PURPLE",
+        "album": "BURN",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Deep_purple_burn.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "PINK FLOYD",
+        "album": "PULSE",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Pink_Floyd_Pulse.png",
+        "price": 3000,
+        "status": "MasVendido"
+    },
+    {
+        "id": 1,
+        "name": "RAMONES",
+        "album": "RAMONES",
+        "off": "40% off",
+        "delivery": "ENVIO GRATIS",
+        "image": "/images/discos-ej/Ramones.jpg",
+        "price": 3000,
+        "status": "MasVendido"
+    }
+]

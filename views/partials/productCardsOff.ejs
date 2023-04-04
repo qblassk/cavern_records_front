@@ -1,0 +1,33 @@
+<section class="set-product-card">
+    <% productsOff.forEach(product=> { %>
+        <article class="product-card">
+            <img src="<%= product.image %>">
+            <br />
+            <div class="product-card-description">
+                <div>
+                    <div class="product-card-description-name">
+                        <p>
+                            <%= product.name %>
+                        </p>
+                    </div>
+                    <div class="product-card-description-disk">
+                        <p>
+                            <%= product.album %>
+                        </p>
+                    </div>
+                </div>
+                <div>
+                    <p class="product-card-description-price">
+                        $<%= product.price %>
+                    </p>
+                    <p class="product-card-description-off">
+                        <%= product.off %>
+                    </p>
+                    <p class="product-card-description-delivery">
+                        <%= product.delivery %>
+                    </p>
+                </div>
+            </div>
+        </article>
+        <% }) %>
+</section>

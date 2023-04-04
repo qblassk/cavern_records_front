@@ -1,0 +1,263 @@
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+}
+
+/*
+ * 01. MAIN
+ * 
+ * -------------------------------------------------------------------
+ */
+
+body {
+   background-image: url(/images/background/mobile_index_background_150dpi.png);
+   background-attachment: fixed;
+   background-size: cover;
+   font-family: 'Roboto', sans-serif;
+   font-size: 12px;
+}
+
+header {
+   background-color: rgb(0, 0, 0);
+   height: auto;
+   padding: 2.5vw;
+}
+
+.header-top-bar {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.fa-solid {
+   color: rgba(255, 255, 255, 0.6);
+}
+
+.logo img {
+   width: 20vw;
+   max-width: 60px;
+}
+
+.search-bar {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 2vw;
+}
+
+.placeholder {
+   border: none;
+   background-color: rgba(255, 255, 255, 0.6);
+   width: 90vw;
+   height: 11vw;
+   max-height: 36px;
+   border-radius: 2vw;
+}
+
+::placeholder {
+   color: grey;
+   font-size: 12px;
+   width: 100vw;
+   padding-left: 3vw;
+}
+
+.main {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+/*
+ * 02. PRODUCT CARD
+ * 
+ * -------------------------------------------------------------------
+ */
+
+.set-product-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+}
+
+.product-card {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+   background-color: rgba(255, 255, 255, 0.6);
+   width: 90%;
+   height: 45vw;
+   border-radius: 2vw;
+   margin-top: 4vw;
+}
+
+.product-card img {
+   display: block;
+   height: 100%;
+   text-align: left;
+   border-bottom-left-radius: 2vw;
+   border-top-left-radius: 2vw;
+}
+
+.product-card-description {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: flex-end;
+   justify-content: space-between;
+   height: 90%;
+   margin-right: 2.3vw;
+   min-width: 45%;
+}
+
+.product-card-description-name {
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 6.5vw;
+   font-weight: 900;
+   color: #e6a41c;
+   text-shadow: 0.1vw 0.1vw #e6492d, 0.2vw 0.2vw #e6492d, 0.3vw 0.3vw #e6492d, 0.4vw 0.4vw #e6492d, 0.5vw 0.5vw #e6492d,
+      0.6vw 0.6vw #e6492d, 0.7vw 0.7vw #e6492d, 0.8vw 0.8vw #e6492d, 0.9vw 0.9vw #e6492d, 0.1vw 0.1vw #e6492d,
+      1.1vw 1.1vw #e6492d;
+}
+
+.product-card-description-disk {
+   text-align: right;
+   word-wrap: break-word;
+   font-family: 'Roboto', sans-serif;
+   font-size: 4vw;
+   font-weight: 700;
+   font-style: italic;
+   color: #e6a41c;
+   margin-top: 1vw;
+}
+
+.product-card-description-price {
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 4.2vw;
+   font-weight: 900;
+}
+
+.product-card-description-off {
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3.8vw;
+   font-weight: 700;
+   color: green;
+}
+
+.product-card-description-delivery {
+   text-align: right;
+   font-family: 'Roboto', sans-serif;
+   font-size: 3vw;
+   color: green;
+}
+
+/*
+ * 03. PANEL
+ * 
+ * -------------------------------------------------------------------
+ */
+
+.panel {
+   display: flex;
+   justify-content: center;
+}
+
+.panel-form-field {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: left;
+}
+
+.panel-form-label {
+   color: white;
+   margin-left: 0.4vw;
+   margin-bottom: 0.4vw;
+}
+
+.panel-form-placeholder {
+   border: none;
+   background-color: rgba(255, 255, 255, 0.6);
+   width: 100%;
+   height: 33px;
+   border-radius: 0.5vw;
+}
+
+/* maximo compu 1280 
+tablet 820  
+agregar uno entre 414 y 550 maso
+que tenga solo nombre precio o ver que info
+o que nombre entre en una sola linea a la fuerza*/
+
+@media (min-width: 414px) {
+   .set-product-card {
+      padding: 3vw;
+   }
+   .product-card {
+      width: 45%;
+      height: 20vw;
+      margin-top: 3vw;
+   }
+
+   .product-card-description-name {
+      font-size: 3vw;
+      text-shadow: 0.1vw 0.1vw #e6492d, 0.2vw 0.2vw #e6492d, 0.3vw 0.3vw #e6492d, 0.4vw 0.4vw #e6492d,
+         0.5vw 0.5vw #e6492d;
+   }
+
+   .product-card-description-disk {
+      font-size: max(1.8vw);
+
+      margin-top: 1vw;
+   }
+
+   .product-card-description-price {
+      font-size: 1.6vw;
+   }
+
+   .product-card-description-off {
+      font-size: 1.4vw;
+   }
+
+   .product-card-description-delivery {
+      font-size: 1.2vw;
+   }
+}
+
+@media (min-width: 1080px) {
+   .set-product-card {
+      max-width: 1280px;
+   }
+
+   .product-card {
+      width: 45%;
+      height: 200px;
+      margin-top: 3vw;
+   }
+
+   .product-card-description-name {
+      font-size: 33px;
+      text-shadow: 0.1vw 0.1vw #e6492d, 0.2vw 0.2vw #e6492d, 0.3vw 0.3vw #e6492d, 0.4vw 0.4vw #e6492d;
+   }
+
+   .product-card-description-disk {
+      font-size: 20px;
+
+      margin-top: 5px;
+   }
+
+   .product-card-description-price {
+      font-size: 16px;
+   }
+
+   .product-card-description-off {
+      font-size: 14px;
+   }
+
+   .product-card-description-delivery {
+      font-size: 12px;
+   }
+}
