@@ -7,6 +7,4 @@ router.get('/', mainController.home);
 
 router.get('/panel', mainController.panel);
 
-
-
 module.exports = router;
