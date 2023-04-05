@@ -76,6 +76,7 @@ header {
 
 .footer {
    display: flex;
+   justify-content: center;
    height: 200px;
    background-color: black;
    margin-top: 6.3vh;
@@ -95,12 +96,12 @@ header {
 }
 
 .footer-content-left p {
-   width: 50vw;
+   width: 100%;
 }
 
 .footer-content-left h3 {
    align-self: flex-end;
-   width: 50vw;
+   width: 100%;
    font-size: small;
 }
 
